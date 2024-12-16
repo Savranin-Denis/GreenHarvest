@@ -1,0 +1,173 @@
+@media only screen and (min-width: 1280px) {
+  .work-section {
+    display: flex;
+  }
+}
+
+.left {
+  background-color: #7a3145;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  background-color: #576f35;
+}
+
+.img-wrap {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  display: flex;
+}
+
+.img-size {
+  width: 335px;
+  height: 452px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-size {
+    width: 640px;
+    height: 640px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .img-size {
+    width: 440px;
+    height: 560px;
+  }
+}
+
+.right-wrap {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .right-wrap {
+    padding: 100px 164px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .right-wrap {
+    padding: 100px 100px;
+  }
+}
+
+.order {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .order {
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+}
+
+.order .part-order {
+  color: #d4bfc4;
+}
+
+.bascket {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bascket {
+    margin-bottom: 52px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .bascket {
+    margin-bottom: 104px;
+  }
+}
+
+.ol-list {
+  display: flex;
+  counter-reset: li-counter;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.ol-list li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 24px;
+  padding: 12px 24px;
+  background-color: #fbfbfb;
+  color: #858585;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ol-list li {
+    padding: 12px 15px 12px 24px;
+  }
+}
+
+.ol-list li::before {
+  content: counter(li-counter);
+  counter-increment: li-counter;
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 111%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  background-color: #7a3145;
+  outline: 5px solid #d4bfc4;
+  flex-shrink: 0;
+}
+
+.part-li {
+  font-weight: 700;
+  color: #141414;
+}
+
+.ol-list p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #858585;
+}
+
+@media only screen and (min-width: 768px) {
+  .ol-list p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .second {
+    max-width: 176px;
+  }
+}
