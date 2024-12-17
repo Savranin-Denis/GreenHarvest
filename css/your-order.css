@@ -191,6 +191,10 @@
   color: #141414;
 }
 
+textarea {
+  resize: none;
+}
+
 @media only screen and (min-width: 768px) {
   .order-form-comment {
     font-size: 16px;

@@ -98,6 +98,19 @@
   margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-nav-list {
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-nav-list {
+    margin-bottom: 0;
+  }
+}
+
 .footer-nav-item {
   font-weight: 600;
   font-size: 32px;
@@ -114,6 +127,13 @@
 
 .footer-contacts-list {
   max-width: 179px;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-contacts-list {
+    max-width: 216px;
+  }
 }
 
 .contacts-item {
@@ -132,6 +152,12 @@
 
 .phone-link {
   margin-bottom: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .phone-link {
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
